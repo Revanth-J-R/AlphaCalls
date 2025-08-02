@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2012/04/12/20/43/pizza-30579_1280.png" type="image/x-icon">
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Menu</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../templates/pizza-icon.png" width="100px" alt="">
+                </li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="orders_taken.html">Orders Taken</a></li>
+                <li><a href="#">Agent Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="tab">
+        <div class="cust-profile">
+            Customer: <a href=""></a><button id="custprof">Kumar</button>
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-button">
+                <img src="../templates/search.jpg" id="search-icon" alt="">
+            </button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container">
+            <!-- Pizza 1 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image"
+                        src="https://sipbitego.com/wp-content/uploads/2021/08/Pepperoni-Pizza-Recipe-Sip-Bite-Go.jpg"
+                        alt="Pepperoni Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">Pepperoni Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹349.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">30 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="pepperoni" data-pizza-price="349"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="pepperoni" data-pizza-price="349"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="pepperoni" data-pizza-price="349"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more pizza cards here -->
+            <!-- Pizza 2 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image"
+                        src="https://chatelaine.com/wp-content/uploads/2023/07/margherita-pizza.jpg"
+                        alt="Margherita Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">Margherita Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹399.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">25 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="margherita" data-pizza-price="399"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="margherita" data-pizza-price="399"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="margherita" data-pizza-price="399"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more pizza cards here -->
+            <!-- Pizza 3 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image" src="https://merranopizza.com/wp-content/uploads/2017/03/pizza-13.png"
+                        alt="Supreme Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">Supreme Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹499.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">35 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="supreme" data-pizza-price="449"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="supreme" data-pizza-price="449"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="supreme" data-pizza-price="449"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 4 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image"
+                        src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe-2-500x500.jpg"
+                        alt="Veggie Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">Veggie Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹449.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">30 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="veggie" data-pizza-price="449"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="veggie" data-pizza-price="449"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="veggie" data-pizza-price="449"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 5 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image"
+                        src="https://s.wsj.net/public/resources/images/B3-AB771_0416HA_M_20180416191237.jpg"
+                        alt="Hawaiian Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">Hawaiian Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹379.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">30 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="hawaiian" data-pizza-price="379"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="hawaiian" data-pizza-price="379"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="hawaiian" data-pizza-price="379"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 6 -->
+            <div class="card">
+                <div class="pimg">
+                    <img class="pizza-image"
+                        src="https://static.standard.co.uk/2023/05/22/12/newFile-7.jpg?width=1200&height=1200&fit=crop"
+                        alt="BBQ Chicken Pizza">
+                </div>
+                <div class="pizza-details">
+                    <h2 class="pizza-name">BBQ Chicken Pizza</h2>
+                    <div class="separator"></div>
+                    <div class="cost-time">
+                        <span class="cost">₹499.00</span>
+                        <span class="delivery-time">
+                            <img class="clock-icon" src="../templates/clock-icon.png" alt="Clock Icon">40 m
+                        </span>
+                    </div>
+                    <div class="availability-status">
+                        <span class="availability">Available</span>
+                        <button class="cart-button">
+                            <span id="s" class="cart-icon" data-pizza-name="bbq-chicken" data-pizza-price="449"
+                                data-pizza-size="S">S</span>
+                            <span id="m" class="cart-icon" data-pizza-name="bbq-chicken" data-pizza-price="449"
+                                data-pizza-size="M">M</span>
+                            <span id="l" class="cart-icon" data-pizza-name="bbq-chicken" data-pizza-price="449"
+                                data-pizza-size="L">L</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cart">
+            <h2>Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item No.</th>
+                        <th>Item Name</th>
+                        <th>Size</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </tbody>
+            </table>
+            <form action="" id="myForm">
+                <p>Total: ₹<span id="cart-total">0.00</span></p>
+                <button id="sendButton">Submit</button>
+            </form>
+
+            <!--
+            <div class="payment-details">
+                <div class="separator"></div>
+                <h3>Payment</h3>
+                <div class="payment-buttons">
+                    <button id="cod">Cash On Delivery</button>
+                    <button id="hidden-pay">Online</button>
+                </div>
+
+                 <form id="online">
+                    <div id="paymail">
+                        <label for="pml" name="email-id">Email:</label>
+                        <input type="email" id="pml">
+                    </div>
+                    <button type="submit" id="pay">Send Link</button>
+                </form>
+                <div id="confirmationMessage"></div> -->
+        </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <a href="#"><img src="/../templates/contact.png" width="50px"><br>Contact us</a>
+            <a href="#"><img src="/../templates/service.png" width="50px"><br>Our Services</a>
+            <a href="#"><img src="/../templates/privacy.png" width="50px"><br>Privacy Policy</a>
+            <a href="#"><img src="/../templates/terms.png" width="50px"><br>Terms & Conditions</a>
+        </div>
+        <br>
+        <div class="row">
+            Made By ALPHA
+        </div>
+    </footer>
+</body>
+
+</html>
